@@ -5,22 +5,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Studion</title>
+  <title>Studion - Contatos</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <nav class="navbar">
     <h1 class="logo-studion">
-      <a href="./index.html">
-        Studi<span class="copy--primary">on</span> 
+      <a href="../src/index.html">
+        Studi<span class="copy--primary">on</span>
         <span class="logo-studion__subtitle">Eventos</span>
       </a>
     </h1>
 
     <ul class="navbar__links">
       <li>
-        <a href="./company.html">Empresa</a>
+        <a class="active" href="./company.html">Empresa</a>
       </li>
       <li>
         <a href="https://www.w3schools.com">Eventos</a>
@@ -38,62 +38,67 @@
   </nav>
 
   <header>
-    <div id="slider">
-      <div class="slide">
-        <img class="slide__background-image" src="./images/banner.jpg" alt="Studion Banner" />
+    <div class="hero">
+      <img src="./images/company.jpg" class="hero__background" alt="imagem da tela de empresa">
 
-        <div class="slide__copy">
-          <h6><span class="copy--primary">Próximo evento</span> - dia 25 de setembro as 19h</h6>
-          <h2><span class="copy--primary">Creative</span> Minds</h2>
-          <button class="btn btn--slide">Saiba Mais</button>
+      <div class="container hero__container">
+        <div class="hero__copy">
+          <div></div>
+          <div>
+            <h2>.empresa</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
+              nobis deserunt natus illo minima! Assumenda accusamus repellat
+              sequi natus laborum saepe suscipit, aspernatur error rem.
+              Reiciendis officiis autem facere eveniet.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </header>
 
   <main>
-    <section id="counter">
-      <ul class="container counter__container">
-        <li>
-          <h3>+ de 500</h3>
-          <small>eventos realizados</small> 
-        </li>
-        <li>
-          <h3>+ de 1.000.000</h3>
-          <small>de ingressos vendidos</small>  
-        </li>
-        <li>
-          <h3>+ de 300</h3>
-          <small>empresas atendidas</small>  
-        </li>
-      </ul>
-    </section>
-
-    <section class="container institutional">
-      <img src="./images/institutional.jpg" class="institutional__image" alt="Studion institutional" />
-
-      <div class="institutional__copy">
-        <h6>Fazemos o seu evento acontecer</h6>
+    <section class="container company">
+      
+      <div class="company__copy">
+        
         <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
-          veniam amet autem alias fugiat, labore laborum ex soluta dolores
-          quidem vel dolorem facilis enim tempora doloremque exercitationem
-          omnis reprehenderit velit.
+          veniam amet autem alias fugiat, labore laborum ex soluta dolores.
         </p>
-        <button class="btn btn--institutional">Saiba Mais</button>
+
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, labore! Iure distinctio deserunt omnis odit modi iste? Veritatis inventore repellendus nostrum alias, assumenda aspernatur incidunt beatae, dicta, quo nam exercitationem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, maiores. Perferendis, enim impedit similique nobis sapiente iure dicta fuga aut dolores.
+        </p>
+        
+      </div>
+      <div>
+
+        <img src="./images/Layercopy.png" class="layer__image" alt="Studion layer" />
+
+      </div>
+
+    </section>
+
+
+    <section id="brands">
+      <div class="container logo">
+        <h2>Quem confia no nosso trabalho</h2>
+        <img src="./images/logos.png" alt="logomarcas">
+
       </div>
     </section>
 
-    <section class="quote">
-      <div class="container quote__container">
-        <div class="quote__copy">
-          <h6>
-            Você informa a temática e nós planejamos um evento com tecnologia e
-          </h6>
-          <h2><span class="copy--primary">Muito+ </span>Diversão</h2>
-          <button class="btn btn--quote">Fazer cotação</button>
-        </div>
+    <section class="container video">
+      <div class="video__position">
+        <img src="./images/video.png" alt="video studion">
+        <a href="https://www.youtube.com/watch?v=bo9WRY4StEs&ab_channel=Breemotion" target="_blank">
+
+          <i class="fa-brands fa-youtube fa-5x fa-inverse"></i>
+        </a>
+
       </div>
     </section>
   </main>
@@ -121,7 +126,7 @@
             <i class="fa-brands fa-facebook fa-2x"></i>
           </a>
         </li>
-        
+
         <li>
           <a href="https://twitter.com/" target="_blank">
             <span class="fa-stack">

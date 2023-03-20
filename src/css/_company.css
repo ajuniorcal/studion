@@ -1,0 +1,68 @@
+.company {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.company__copy {
+margin-top: 6.875rem;
+margin-left: 4.0625rem;
+margin-right: 9.6875rem;
+
+}
+
+.company__copy h4 {
+  font-size: 0,9375rem;
+  margin-top: 1rem;
+}
+
+.company p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6875rem;
+  margin-bottom: 2.5rem;
+  text-align: justify;
+}
+
+.layer__image {
+display: inline-block;
+vertical-align: middle;
+}
+
+#brands {
+  background-color: var(--color-primary);
+  height: 35.9375rem;
+}
+
+.logo {
+  font-size: 1.5625rem;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 5.625rem;
+}
+
+.video {
+  position: relative;
+  object-position: center;
+  padding-left: 4.6875rem;
+ 
+}
+
+.video__position {
+  padding: 6rem 3rem 6rem 3rem ;
+  object-position: center;
+  margin-left: -3rem;
+}
+
+
+
+.video i:hover {
+  color: var(--color-primary);
+}
+
+.fa-youtube {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
