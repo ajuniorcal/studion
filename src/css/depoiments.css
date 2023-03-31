@@ -1,0 +1,43 @@
+#depoiments {
+    background-color: var(--color-primary);
+    height: 47.8125rem;
+    display: flex;
+    justify-content: center;
+  }
+
+.depo1 {
+    margin-top: 5rem;
+    
+}
+
+.depo1__texto {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.depo1__texto h3 {
+    justify-content: center;
+    font-size: 3.125rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    margin-left: -3.4rem;
+    letter-spacing: -0.125rem;
+    font-weight: 700;
+    
+}
+
+.depo1__texto h5 {
+    font-size: 0.875rem;
+    letter-spacing: 0.1875rem;
+    font-weight: 400;
+    margin-top: 0.3rem;
+    
+}
+
+.cargo {
+
+    display: inline-block;
+    text-align: right;
+
+}
